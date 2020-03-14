@@ -1,3 +1,8 @@
+
+body {
+    background-color: #DCDCDC;
+  }
+
 .thinGrey{
     border-bottom: 20px dotted blue
 }
@@ -10,3 +15,85 @@
 img {
     float: left;
   }
+
+  .container-fluid {
+    display: inline-block;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-fluid {
+    display: inline-block;
+    width: 50%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.index-box{
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 15%;
+    background-color: white;
+      
+}
+
+.box-heading {
+    padding-bottom: 15px;
+    font-size: larger;
+    border-bottom: 3px solid grey
+}
+
+.box-body{
+    padding-top: 15px;
+}
+
+.contactme-box{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+      
+}
+
+.container-box{
+   padding: 5px;
+   background-color: white;
+    
+    
+}
+
+.center {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+    display: inline-block;
+  }
+
+  #thumbs {   
+    /* width: 940px;
+    margin-top:90px; */
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }s
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
